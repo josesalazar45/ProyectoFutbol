@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ProyectoFutbol</string>
+    <string name="navigation_drawer_open">Abrir</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="title_activity_mapas">Map</string>
+    <string name="nav_gallery">Estadios</string>
+    <string name="nav_slideshow">Bombos</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="nav_manage">Informacion</string>
+    <string name="nav_share">Acerca de</string>
+    <string name="nav_send">Salir</string>
+    <string name="textView5">Integrantes</string>
+    <string name="textDes3">Estudiantes Ingenieria de Sistemas</string>
+    <string name="close">Atras</string>
+    <string name="Ubicacion11">Ubicacion</string>
+    <string name="textDes11">Sede: Kaliningrado</string>
+    <string name="textDes21">Sede: Volgogrado</string>
+    <string name="textDes31">Sede: Ekaterimburgo</string>
+    <string name="textDes41">Sede: Sochi</string>
+    <string name="textDes51">Sede: Kazán</string>
+</resources>

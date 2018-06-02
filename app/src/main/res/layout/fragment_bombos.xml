@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jose.proyectofutbol.Bombos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imvPaisesMapa"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:src="@drawable/paisespart" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtBombo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bombo1"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imvRusia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/rusia" />
+
+                <ImageView
+                    android:id="@+id/imvAlemania"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/alemania" />
+
+                <ImageView
+                    android:id="@+id/imvBrasil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/brasil" />
+
+                <ImageView
+                    android:id="@+id/imvPortugal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/portugal" />
+
+                <ImageView
+                    android:id="@+id/imvArgentina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/argentina" />
+
+                <ImageView
+                    android:id="@+id/imvBelgica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/belgica" />
+
+                <ImageView
+                    android:id="@+id/imvPolonia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/polonia" />
+
+                <ImageView
+                    android:id="@+id/imvFrancia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/francia" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtBombo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bombo2"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imvEspana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/espana" />
+
+                <ImageView
+                    android:id="@+id/imvPeru"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/peru" />
+
+                <ImageView
+                    android:id="@+id/imvSuiza"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/suiza" />
+
+                <ImageView
+                    android:id="@+id/imvInglaterra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/inglaterra" />
+
+                <ImageView
+                    android:id="@+id/imvColombia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/colombia" />
+
+                <ImageView
+                    android:id="@+id/imvMexico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/mexico" />
+
+                <ImageView
+                    android:id="@+id/imvUruguay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/uruguay" />
+
+                <ImageView
+                    android:id="@+id/imvCroacia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/croacia" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtBombo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bombo3"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imvDinamarca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/dinamarca" />
+
+                <ImageView
+                    android:id="@+id/imvIslandia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/islandia" />
+
+                <ImageView
+                    android:id="@+id/imvCostaRica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/costarica" />
+
+                <ImageView
+                    android:id="@+id/imvSuecia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/suecia" />
+
+                <ImageView
+                    android:id="@+id/imvTunes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/tunez" />
+
+                <ImageView
+                    android:id="@+id/imvEgipto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/egipto" />
+
+                <ImageView
+                    android:id="@+id/imvSenegal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/senegal" />
+
+                <ImageView
+                    android:id="@+id/imvIran"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/iran" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtBombo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bombo4"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imvSerbia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/serbia" />
+
+                <ImageView
+                    android:id="@+id/imvNigeria"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/nigera" />
+
+                <ImageView
+                    android:id="@+id/imvAustralia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/australia" />
+
+                <ImageView
+                    android:id="@+id/imvJapon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/japon" />
+
+                <ImageView
+                    android:id="@+id/imvMarruecos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/marruecos" />
+
+                <ImageView
+                    android:id="@+id/imvPanama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/panama" />
+
+                <ImageView
+                    android:id="@+id/imvCoreaDelSur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/coreadelsur" />
+
+                <ImageView
+                    android:id="@+id/imvArabiaSaudita"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/arabiasaudita" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
